@@ -8,8 +8,10 @@ function App() {
     <>
       <Header />
       <MainContent />
-      <UserProfile name="Nati" age={21} bio="Aspiring React Developer" />
+      <UserProfile name="Nati" age={21} bio="Aspiring full-stack developer" />
       <Footer />
     </>
   );
 }
+
+export default App;
