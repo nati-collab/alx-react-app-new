@@ -5,17 +5,11 @@ import UserProfile from './components/UserProfile';
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
       <MainContent />
-      <UserProfile
-        name="Nati Girma"
-        age="19"
-        bio="A tech enthusiast exploring beautiful cities and innovative ideas."
-      />
+      <UserProfile name="Nati" age={21} bio="Aspiring React Developer" />
       <Footer />
-    </div>
+    </>
   );
 }
-
-export default App;
